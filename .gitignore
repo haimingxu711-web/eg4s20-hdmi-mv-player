@@ -1,0 +1,16 @@
+# TD 构建输出
+src/td_my/my_top_Runs/
+src/td_my/*.log
+src/td_my/*.logw
+*.bak*
+
+# ModelSim 输出
+sim/**/work/
+sim/**/transcript
+sim/**/*.wlf
+sim/run_*/
+sim/*.hex
+sim/*.png
+
+# Python
+__pycache__/
